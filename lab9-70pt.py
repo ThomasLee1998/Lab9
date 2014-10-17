@@ -12,3 +12,9 @@
 # Accept user input 
 # Calculate fahrenheit
 # Output answer
+print "enter in temprature in celcius" 
+cel=int(raw_input())
+cel=cel*9
+cel=cel/5
+cel=cel+32
+print "The celcius temp in Fahrenhiet equals "+str(cel)
